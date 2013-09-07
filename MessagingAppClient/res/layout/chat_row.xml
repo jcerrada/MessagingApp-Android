@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/relativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/date_chat"
+        android:gravity="left"
+        android:orientation="vertical" >
+        <TextView 
+            android:id="@+id/row_chat_name"
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:text="@string/chat_row_chat_text"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:gravity="left"/>
+        <TextView 
+            android:id="@+id/last_message_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chat_row_message_text"
+            android:maxLines="1"/>
+    </LinearLayout>
+    <TextView 
+        android:id="@+id/date_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/chat_row_date_text"/>
+</RelativeLayout>

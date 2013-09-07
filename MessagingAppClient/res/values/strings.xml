@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MessagingAppClient!</string>
+    <string name="app_name">MessagingApp</string>
+    <string name="no_contacts">There are no contacts</string>
+    <string name="no_groups">There are no groups</string>
+    <string name="no_chats">There are no chats</string>
+    <string name="new_chat_text">New Chat</string>
+    <string name="desc_add_icon">Add icon</string>
+    <string name="new_group_text">Create group</string>
+    <string name="search_group_text">Search group</string>
+    <string name="search_button">Search</string>
+    <string name="search_contact_text">Search contact</string>
+    <string name="chat_row_chat_text">Chat</string>
+    <string name="chat_row_message_text">This is the last message</string>
+    <string name="chat_row_date_text">2012–03–22</string>
+    <string name="write_message_hinttext">Message</string>
+    <string name="send_message_button_text">Send</string>
+    <string name="message_name">Name</string>
+    <string name="message_date">2012–03–24</string>
+    <string name="message_time">13:34</string>
+    <string name="message_text">This is the first message</string>
+    <string name="group_name_text_textview">Name</string>
+    <string name="group_name_hinttext">Group name</string>
+    <string name="confirm_button_text">Confirm</string>
+    <string name="no_members_text">This group doesn\'t have members yet</string>
+    <string name="delete_chat">Delete Chat</string>
+    <string name="create_group_chat">Create Group Chat</string>
+    <string name="send_common_friends">Send Message to Common Friends</string>
+    <string name="delete_message">Delete Message</string>
+	<string name="delete_group">Delete Group</string>
+	<string name="login_string_number">Insert Your Number</string>
+</resources>

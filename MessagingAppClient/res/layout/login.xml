@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/relativeLayout1"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+	<TextView 
+		android:id ="@+id/android:login_textview"	
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:layout_above="@+id/android:login_edittext"
+		android:text="@string/login_string_number"
+		android:textAppearance="?android:attr/textAppearanceLarge"/>
+	<EditText
+	    android:id="@+id/android:login_edittext"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerInParent="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignParentLeft="true"
+	    android:layout_marginRight="20dip"
+	    android:layout_marginLeft="20dip"
+	    android:inputType="number" >
+	    <requestFocus />
+	</EditText>
+	<Button 
+		android:id="@+id/android:login_button"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:clickable="true"
+		android:onClick="onClick"
+		android:text="@string/confirm_button_text"
+	/>
+	<ImageView
+	    android:id="@+id/login_image"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentTop="true"
+	    android:layout_centerHorizontal="true"
+	    android:scaleType="fitStart"
+	    android:src="@drawable/logo_messagingapp" />
+</RelativeLayout>

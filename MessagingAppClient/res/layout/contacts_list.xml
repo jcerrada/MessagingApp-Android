@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ListView 
+        android:id="@+id/android:list"
+       	android:layout_width="match_parent"
+       	android:layout_height="wrap_content"
+       	android:layout_alignParentTop="true"
+       	android:layout_above="@+id/android:search_contact"/>
+  	<LinearLayout
+  	    android:id="@+id/android:search_contact"
+  	    android:orientation="horizontal"
+  	    android:layout_width="match_parent"
+  	    android:layout_height="wrap_content"
+  	    android:layout_alignParentBottom="true">
+        <EditText 
+            android:id="@+id/android:search_contact_edittext"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:maxLines="1"
+            android:layout_weight="1"
+            android:hint="@string/search_contact_text"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right" >
+       		<Button 
+            	android:id="@+id/android:search_contact_button"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:onClick="onClickSearch"
+            	android:clickable="true"
+            	android:text="@string/search_button"/>
+        </LinearLayout>
+  	</LinearLayout>
+</RelativeLayout>
